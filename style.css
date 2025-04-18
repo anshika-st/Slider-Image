@@ -37,6 +37,16 @@ header{
     overflow: hidden;
     position: relative;
     background-color: red;
+
+}
+
+.slider::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #00000069; /* black overlay */
+    z-index: 1;
+    pointer-events: none;
 }
 
 .slider .list .item{
@@ -66,6 +76,7 @@ header{
     font-weight: bold;
     letter-spacing: 10px;
     font-size: 2em;
+    color: white;
 }
 
 .slider .list .item .content .title, 
@@ -73,15 +84,23 @@ header{
     font-weight: bold;
     font-size: 5em;
     line-height: 1.3em;
+    color: white;
 }
 
 .slider .list .item .content .topic{
     color: #f1683a;
 }
 
+.slider .list .item .content .des{
+    color: white;
+    font-weight: 700;
+    font-size: 1.01em;
+}
+
+
 .thumbnail{
     position: absolute;
-    bottom: 50px;
+    bottom: 20px;
     left: 50%;
     width: max-content;
     z-index: 100;
