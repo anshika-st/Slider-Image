@@ -25,3 +25,6 @@ This is a visually appealing and interactive project built using **HTML**, **CSS
 - Smooth image zoom or slide
 - Button click animation
 - Thumbnail transitions for a clean and modern UI
+
+## 🔗 Live Demo
+[Click here to see the project live](https://anshika-st.github.io/Slider-Image/)
